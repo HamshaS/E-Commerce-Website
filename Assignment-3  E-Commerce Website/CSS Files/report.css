@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('/CSS\ Files/Report.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /* width: fit-content;
+    height:fit-content; */
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: auto;
+    color: white;
+}
+.body
+{
+    text-align: auto;
+    color: white;
+}

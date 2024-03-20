@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+   /* flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 15%;
+}
+
+h1{
+    text-align: center;
+    /* height: 100px; */
+    align-items: center;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.973);
+    /* text-shadow: rgb(255, 255, 255); */
+}
+body {
+    background: url('/CSS\ Files/Admin Image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #9b000000;
+    border: 1px solid #ffffff;
+    /* box-shadow: #b30000; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.box:hover {
+    background-color: #880000;
+}
